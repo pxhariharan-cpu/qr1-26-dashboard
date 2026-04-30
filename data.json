@@ -1,0 +1,43 @@
+{
+  "lastUpdated": 1736001234567,
+  "updatedBy": "war-room-operator",
+  "tasks": {
+    "c1::WRE::0": {
+      "status": "completed",
+      "changedAt": "2026-02-14T10:30:00Z",
+      "errorMessage": ""
+    },
+    "c1::WRE::1": {
+      "status": "in-progress", 
+      "changedAt": "2026-02-14T11:15:00Z",
+      "errorMessage": ""
+    },
+    "c1::WRE::2": {
+      "status": "issue",
+      "changedAt": "2026-02-14T12:00:00Z", 
+      "errorMessage": "Database connection timeout during patching - investigating with DBA team"
+    },
+    "c2::TP1::0": {
+      "status": "completed",
+      "changedAt": "2026-02-14T09:45:00Z",
+      "errorMessage": ""
+    },
+    "fn::PRI::0": {
+      "status": "in-progress",
+      "changedAt": "2026-02-14T13:20:00Z", 
+      "errorMessage": ""
+    }
+  },
+  "metadata": {
+    "quarterInfo": {
+      "label": "QR1'26",
+      "windowStart": "2026-02-14T00:00:00Z",
+      "windowEnd": "2026-02-15T20:30:00Z"
+    },
+    "totalTasks": 184,
+    "completedTasks": 45,
+    "inProgressTasks": 12,
+    "issueTasks": 3,
+    "notStartedTasks": 124
+  }
+}
